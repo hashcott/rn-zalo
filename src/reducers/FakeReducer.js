@@ -1,8 +1,8 @@
-import { EXAMPLE } from "../type";
+import { FAKER_USERS } from "../actions/type";
 
 export default (state = [], action) => {
   switch (action.key) {
-    case EXAMPLE:
+    case FAKER_USERS:
       return [...state, action.payload];
 
     default:

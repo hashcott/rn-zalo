@@ -1,1 +1,1 @@
-export const EXAMPLE = "EXAMPLE";
+export const FAKER_USERS = "FAKER_USERS";
